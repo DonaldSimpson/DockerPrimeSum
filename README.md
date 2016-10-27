@@ -15,16 +15,16 @@ I use this for perf and load testing in Docker
 - tini init process installed from https://github.com/krallin/tini
 
 
-## Usage info:
-docker run -it psumtest primesum
-
+## View Usage/info:
+- *docker run -it donaldsimpson/primesum primesum*
 
 ## Example usage:
-- default: docker run -it donaldsimpson/primesum
+- default: *docker run -it donaldsimpson/primesum*
   will  perform: primesum 1e14 --threads=4 --time
 
-- user args: docker run -it donaldsimpson/primesum primesum 1e14 --time 
+- user args: *docker run -it donaldsimpson/primesum primesum 1e14 --time* 
   will sum the primes below 10^14
+- view *Usage* for more options
 
 http://www.donaldsimpson.co.uk - *Donald Simpson*
 
