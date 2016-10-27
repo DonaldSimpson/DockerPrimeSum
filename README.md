@@ -26,6 +26,6 @@ docker run -it psumtest primesum
 - user args: docker run -it donaldsimpson/primesum primesum 1e14 --time 
   will sum the primes below 10^14
 
-[www.donaldsimpson.co.uk]http://www.donaldsimpson.co.uk - *Donald Simpson*
+http://www.donaldsimpson.co.uk - *Donald Simpson*
 
 
